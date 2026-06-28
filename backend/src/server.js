@@ -153,8 +153,6 @@ app.use('/api/earnings', earningsRoutes);
 app.use('/api/store-settings', storeSettingsRoutes);
 app.use('/api/fund-requests', fundRequestRoutes);
 
-// // Serve Frontend Static Files
-// app.use(express.static(path.join(__dirname, '../dist')));
 
 
 // 404 handler
